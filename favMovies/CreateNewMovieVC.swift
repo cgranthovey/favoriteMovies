@@ -17,7 +17,8 @@ class CreateNewMovieVC: UIViewController, UINavigationControllerDelegate, UIImag
     @IBOutlet weak var movieTitle: UITextField!
     @IBOutlet weak var movieDesc: UITextField!
     @IBOutlet weak var imdbURL: UITextField!
-    @IBOutlet weak var imdbPlot: UITextField!
+    @IBOutlet weak var imdbPlot: UITextView!
+    @IBOutlet weak var addMovie: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
